@@ -135,9 +135,14 @@ form a:nth-child(2){
 
 .offer {
     font-size: 14px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     
 }
-
+.offer p{
+    padding: auto;
+}
 .offer a{
     text-decoration: none;
     color: #1603c2;
